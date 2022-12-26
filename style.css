@@ -21,7 +21,7 @@ html{
 
 .content{
     width: 100vw;
-    height: 130px;
+    height: 120px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -76,7 +76,7 @@ html{
 
 .first-section{
     height: 100vh;
-    background-image: linear-gradient(rgba(29, 29, 29, 0.562), rgba(29, 29, 29, 0.582)) ,url(imagens/pexels-pixabay-248337.jpg);
+    background-image: linear-gradient(rgba(29, 29, 29, 0.432), rgba(29, 29, 29, 0.432)), url(imagens/pexels-helena-lopes-841303.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,15 +95,16 @@ html{
 }
 
 .first-section  h1{
-    color: rgb(177, 177, 177);
+    color: white;
     font-size: 3rem;
+    font-weight: 10;
     text-transform: uppercase;
     margin-bottom: 1rem;
 
 }
 
 .first-section h2 {
-    color: rgb(177, 177, 177);
+    color: white;
     font-size: 2.5rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -117,7 +118,7 @@ html{
     text-transform: uppercase;
     background-color: rgba(9, 78, 9, 0.651);
     border-radius: 10px;
-    color: rgb(177, 177, 177);
+    color: white;
     font-weight: 700;
     margin-top: 5rem;
     transition: all 400ms ease-in;
@@ -132,4 +133,81 @@ html{
     width: 480px;
     display: flex;
     justify-content: space-between;
+}
+
+
+.first-section2{
+    height: 100vh;
+    background-color: #fefefe86
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.benefits{
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.benefit{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: black;
+    font-size: 2em;
+}
+
+.benefit .benefit-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+
+#benefit-1{
+    background-image: url(imagens/pexels-mark-stebnicki-11357095.jpg);
+        
+  
+}
+
+#benefit-2{
+    background-image: url(imagens/pexels-deneen-lt-1058401.jpg);
+
+}
+#benefit-3{
+    background-image: url(imagens/pexels-pixabay-40384.jpg);}
+
+
+
+#footer{
+    text-align: center;
+    color: green;
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#footer h3 {
+    font-size: 1.8em;
+    margin-bottom: .5em;
+}
+#footer p:nth-child(2){
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+#footer span{
+    font-weight: bold;
 }

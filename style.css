@@ -138,7 +138,7 @@ html{
 
 .first-section2{
     height: 100vh;
-    background-color: #fefefe86
+    background-image: linear-gradient(rgba(29, 29, 29, 0.616), rgba(29, 29, 29, 0.616)), url(imagens/pexels-alejandro-barrón-96715.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -164,7 +164,7 @@ html{
     flex-direction: column;
     align-items: center;
     max-width: 20%;
-    color: black;
+    color: white;
     font-size: 2em;
 }
 
@@ -195,7 +195,7 @@ html{
 #footer{
     text-align: center;
     color: green;
-    height: 0px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
